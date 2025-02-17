@@ -1,0 +1,63 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.explorer {
+  width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.folder {
+  margin-left: 10px;
+}
+
+.folder-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: rgb(61, 94, 112);
+  padding: 5px;
+}
+
+.folder-header:hover {
+  background: rgb(22, 51, 66);
+}
+
+.file {
+  background: rgb(7, 96, 90);
+}
+
+.btn {
+  background: #fff;
+  color: black;
+}
+
+.btn:hover {
+  background: rgb(222, 222, 222);
+}
+
+.btn:active {
+  background: rgb(183, 187, 206);
+}
