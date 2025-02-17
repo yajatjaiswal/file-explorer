@@ -33,7 +33,11 @@ const Folder = ({ folder, path }) => {
     return (
         <div className="folder">
             <div className="folder-header">
-                <span onClick={handleToggle}>{folder.isFolder ? (expanded ? "📂" : "📁") : "📄"} {folder.name}</span>
+                <div className="icon" onClick={handleToggle}>
+                    <span>
+                        {folder.isFolder ? (expanded ? "📂" : "📁") : "📄"} {folder.name}
+                    </span>
+                </div>
                 <button className="btn" onClick={handleAddFolder}>+ Folder</button>
                 <button className="btn" onClick={handleAddFile}>+ File</button>
                 <button className="btn" onClick={handleRename}>Rename</button>

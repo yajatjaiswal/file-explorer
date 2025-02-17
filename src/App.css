@@ -61,3 +61,7 @@ h1 {
 .btn:active {
   background: rgb(183, 187, 206);
 }
+
+.icon {
+  cursor: pointer;
+}
